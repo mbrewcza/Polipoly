@@ -1,4 +1,5 @@
 package Backend;
 
-public class Chance extends Card{
+
+public class Chance extends Card {
 }

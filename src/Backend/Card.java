@@ -1,4 +1,2 @@
-package Backend;
-
-public abstract  class Card {
+package Backend;public class Card {
 }
