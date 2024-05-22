@@ -1,333 +1,225 @@
 {
-  "propertyList": [
+  "streetList": [
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Mediterranean Avenue",
+      "colour": "brown",
+      "price": 60,
+      "mortgage": 30,
+      "housePrice": 50,
+      "rent": [2, 10, 30, 90, 160, 250]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Baltic Avenue",
+      "colour": "brown",
+      "price": 60,
+      "mortgage": 30,
+      "housePrice": 50,
+      "rent": [4, 20, 60, 180, 320, 450]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Oriental Avenue",
+      "colour": "light blue",
+      "price": 100,
+      "mortgage": 50,
+      "housePrice": 50,
+      "rent": [6, 30, 90, 270, 400, 550]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Vermont Avenue",
+      "colour": "light blue",
+      "price": 100,
+      "mortgage": 50,
+      "housePrice": 50,
+      "rent": [6, 30, 90, 270, 400, 550]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Connecticut Avenue",
+      "colour": "light blue",
+      "price": 120,
+      "mortgage": 60,
+      "housePrice": 50,
+      "rent": [8, 40, 100, 300, 450, 600]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "St. Charles Place",
+      "colour": "pink",
+      "price": 140,
+      "mortgage": 70,
+      "housePrice": 100,
+      "rent": [10, 50, 150, 450, 625, 750]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "States Avenue",
+      "colour": "pink",
+      "price": 140,
+      "mortgage": 70,
+      "housePrice": 100,
+      "rent": [10, 50, 150, 450, 625, 750]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Virginia Avenue",
+      "colour": "pink",
+      "price": 160,
+      "mortgage": 80,
+      "housePrice": 100,
+      "rent": [12, 60, 180, 500, 700, 900]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "St. James Place",
+      "colour": "orange",
+      "price": 180,
+      "mortgage": 90,
+      "housePrice": 100,
+      "rent": [14, 70, 200, 550, 750, 950]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Tennessee Avenue",
+      "colour": "orange",
+      "price": 180,
+      "mortgage": 90,
+      "housePrice": 100,
+      "rent": [14, 70, 200, 550, 750, 950]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "New York Avenue",
+      "colour": "orange",
+      "price": 200,
+      "mortgage": 100,
+      "housePrice": 100,
+      "rent": [16, 80, 220, 600, 800, 1000]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Kentucky Avenue",
+      "colour": "red",
+      "price": 220,
+      "mortgage": 110,
+      "housePrice": 150,
+      "rent": [18, 90, 250, 700, 875, 1050]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Indiana Avenue",
+      "colour": "red",
+      "price": 220,
+      "mortgage": 110,
+      "housePrice": 150,
+      "rent": [18, 90, 250, 700, 875, 1050]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Illinois Avenue",
+      "colour": "red",
+      "price": 240,
+      "mortgage": 120,
+      "housePrice": 150,
+      "rent": [20, 100, 300, 750, 925, 1100]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Atlantic Avenue",
+      "colour": "yellow",
+      "price": 260,
+      "mortgage": 130,
+      "housePrice": 150,
+      "rent": [22, 110, 330, 800, 975, 1150]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Ventnor Avenue",
+      "colour": "yellow",
+      "price": 260,
+      "mortgage": 130,
+      "housePrice": 150,
+      "rent": [22, 110, 330, 800, 975, 1150]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Marvin Gardens",
+      "colour": "yellow",
+      "price": 280,
+      "mortgage": 140,
+      "housePrice": 150,
+      "rent": [24, 120, 360, 850, 1025, 1200]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Pacific Avenue",
+      "colour": "green",
+      "price": 300,
+      "mortgage": 150,
+      "housePrice": 200,
+      "rent": [26, 130, 390, 900, 1100, 1275]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "North Carolina Avenue",
+      "colour": "green",
+      "price": 300,
+      "mortgage": 150,
+      "housePrice": 200,
+      "rent": [26, 130, 390, 900, 1100, 1275]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Pennsylvania Avenue",
+      "colour": "green",
+      "price": 320,
+      "mortgage": 160,
+      "housePrice": 200,
+      "rent": [28, 150, 450, 1000, 1200, 1400]
     },
     {
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },{
-      "name": "",
-      "colour": "",
-      "price":,
-      "mortgage":,
-      "housePrice":,
-      "rent": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "name": "Park Place",
+      "colour": "blue",
+      "price": 350,
+      "mortgage": 175,
+      "housePrice": 200,
+      "rent": [35, 175, 500, 1100, 1300, 1500]
+    },
+    {
+      "name": "Boardwalk",
+      "colour": "blue",
+      "price": 400,
+      "mortgage": 200,
+      "housePrice": 200,
+      "rent": [50, 200, 600, 1400, 1700, 2000]
+    }
+  ],
+  "utilityList": [
+    {
+      "name": "Reading Railroad",
+      "type": "railroad",
+      "price": 200,
+      "mortgage": 100,
+      "rent": [25, 50, 100, 200]
+    },
+    {
+      "name": "Pennsylvania Railroad",
+      "type": "railroad",
+      "price": 200,
+      "mortgage": 100,
+      "rent": [25, 50, 100, 200]
+    },
+    {
+      "name": "B&O Railroad",
+      "type": "railroad",
+      "price": 200,
+      "mortgage": 100,
+      "rent": [25, 50, 100, 200]
+    },
+    {
+      "name": "Short Line",
+      "type": "railroad",
+      "price": 200,
+      "mortgage": 100,
+      "rent": [25, 50, 100, 200]
+    },
+    {
+      "name": "Electric Company",
+      "type": "utility",
+      "price": 150,
+      "mortgage": 75,
+      "rent": [4, 10]
+    },
+    {
+      "name": "Water Works",
+      "type": "utility",
+      "price": 150,
+      "mortgage": 75,
+      "rent": [4, 10]
     }
   ]
 }
+
