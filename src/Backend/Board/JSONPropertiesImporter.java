@@ -1,4 +1,4 @@
-package Backend;
+package Backend.Board;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

@@ -1,4 +1,8 @@
-package Backend;
+package Backend.Game;
+
+import Backend.Board.Board;
+import Backend.Board.JSONPropertiesImporter;
+import Backend.Board.Property;
 
 public class Main {
     public static void main (String[] args){
@@ -7,5 +11,8 @@ public class Main {
         for(Property p : jp.getAllProperties()){
             System.out.println(p.toString());
         }
+
+        Board board = new Board();
+        System.out.println(board.toString());
     }
 }
