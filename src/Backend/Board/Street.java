@@ -1,20 +1,36 @@
-package Backend;
+package Backend.Board;
 
 import java.util.Arrays;
 
-public class Utility extends Property {
+public class Street extends Property{
     private String name;
-    private String type;
+    private String colour;
     private int price;
-    private int mortgage;
+    private int mortgage = price/2;
+    private int housePrice;
     private int[] rent = new int[6];
+    private int housesAmount = 0;
+    private boolean hasHotel = false;
+    public Street(){}
+
+    public void addHouse(){
+        housesAmount++;
+    }
+
+    public void removeHouse(){
+        housesAmount--;
+    }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setHasHotel(boolean b){
+        this.hasHotel = b;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
     }
 
     public void setPrice(int price) {
@@ -25,6 +41,10 @@ public class Utility extends Property {
         this.mortgage = mortgage;
     }
 
+    public void setHousePrice(int housePrice) {
+        this.housePrice = housePrice;
+    }
+
     public void setRent(int[] rent) {
         this.rent = rent;
     }
@@ -33,8 +53,8 @@ public class Utility extends Property {
         return name;
     }
 
-    public String getType() {
-        return type;
+    public String getColour() {
+        return colour;
     }
 
     public int getPrice() {
@@ -45,17 +65,22 @@ public class Utility extends Property {
         return mortgage;
     }
 
+    public int getHousePrice() {
+        return housePrice;
+    }
+
     public int[] getRent() {
         return rent;
     }
 
     @Override
     public String toString() {
-        return "Utility{" +
+        return "Street{" +
                 "name='" + name + '\'' +
-                ", type='" + type + '\'' +
+                ", colour='" + colour + '\'' +
                 ", price=" + price +
                 ", mortgage=" + mortgage +
+                ", housePrice=" + housePrice +
                 ", rent=" + Arrays.toString(rent) +
                 '}';
     }

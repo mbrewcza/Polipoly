@@ -1,21 +1,20 @@
-package Backend;
+package Backend.Board;
 
 import java.util.Arrays;
 
-public class Street extends Property{
+public class Utility extends Property {
     private String name;
-    private String colour;
+    private String type;
     private int price;
-    private int mortgage = price/2;
-    private int housePrice;
+    private int mortgage;
     private int[] rent = new int[6];
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setColour(String colour) {
-        this.colour = colour;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public void setPrice(int price) {
@@ -26,10 +25,6 @@ public class Street extends Property{
         this.mortgage = mortgage;
     }
 
-    public void setHousePrice(int housePrice) {
-        this.housePrice = housePrice;
-    }
-
     public void setRent(int[] rent) {
         this.rent = rent;
     }
@@ -38,8 +33,8 @@ public class Street extends Property{
         return name;
     }
 
-    public String getColour() {
-        return colour;
+    public String getType() {
+        return type;
     }
 
     public int getPrice() {
@@ -50,22 +45,17 @@ public class Street extends Property{
         return mortgage;
     }
 
-    public int getHousePrice() {
-        return housePrice;
-    }
-
     public int[] getRent() {
         return rent;
     }
 
     @Override
     public String toString() {
-        return "Street{" +
+        return "Utility{" +
                 "name='" + name + '\'' +
-                ", colour='" + colour + '\'' +
+                ", type='" + type + '\'' +
                 ", price=" + price +
                 ", mortgage=" + mortgage +
-                ", housePrice=" + housePrice +
                 ", rent=" + Arrays.toString(rent) +
                 '}';
     }
